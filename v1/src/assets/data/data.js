@@ -47,20 +47,4 @@ export const members = [
       "Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum",
     imageUrl: "https://i.imgur.com/EJcUyJT.jpg",
   },
-  {
-    id: 7,
-    name: "Lana Tarson",
-    jobRole: "sales manager",
-    description:
-      "Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum",
-    imageUrl: "https://i.imgur.com/EJcUyJT.jpg",
-  },
-  {
-    id: 8,
-    name: "Lana Tarson",
-    jobRole: "sales manager",
-    description:
-      "Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum",
-    imageUrl: "https://i.imgur.com/EJcUyJT.jpg",
-  },
 ];

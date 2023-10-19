@@ -1,6 +1,6 @@
 import Card from "../utils/Card";
 
-import { members } from "../assets/data/data";
+import { members } from "../assets/data/data.js";
 
 const Team = () => {
   return (
