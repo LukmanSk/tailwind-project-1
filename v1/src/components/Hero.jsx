@@ -19,7 +19,7 @@ const Hero = () => {
         <div className="form-group flex flex-col md:flex-row justify-center gap-2 md:gap-0  ">
           <input
             type="email"
-            className="py-[10px] px-[12px] border-none outline-none"
+            className="py-[10px] px-[12px] border-none outline-none lg:w-[20rem]"
             placeholder="Your Email"
           />
           <button className="text-[20px] py-[10px] px-[30px] bg-[#f1c50e] text-[#000] uppercase font-semibold">

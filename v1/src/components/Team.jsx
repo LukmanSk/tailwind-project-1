@@ -1,6 +1,10 @@
+import Card from "../utils/Card";
+
+import { members } from "../assets/data/data";
+
 const Team = () => {
   return (
-    <section className="team">
+    <section className="team pb-10">
       <div className="wrapper mx-auto max-w-[75rem]">
         <div className="text-content text-center py-[72px] px-4">
           <h2 className="text-[24px] sm:text-[48px] font-bold ">
@@ -16,13 +20,16 @@ const Team = () => {
           </p>
         </div>
       </div>
-      <div className="grid-container">
-        {/* card */}
-        {/* card */}
-        {/* card */}
-        {/* card */}
-        {/* card */}
-        {/* card */}
+      <div className="max-w-[1200px] mx-auto px-4 grid gap-3 grid-cols-1 sm:grid-cols-2 ">
+        {members?.map((person) => (
+          <Card
+            key={person.id}
+            image={person.imageUrl}
+            description={person.description}
+            name={person.name}
+            jobRole={person.jobRole}
+          />
+        ))}
       </div>
     </section>
   );
